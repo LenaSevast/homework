@@ -1,16 +1,17 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+a = int(input("Введите  первое число "))
+b = int(input("Введите второе число "))
+s = a + b
+int(s)
+print("Сумма ")
+print(s)
+ss = a - b
+print("Разность ")
+print(ss)
+sss = a * b
+print("Производное ")
+print(sss)
+ssss = a / b
+print("Частное ")
+print(ssss)
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
