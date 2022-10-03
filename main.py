@@ -5,8 +5,7 @@ s = a + b
 print("Сумма ")
 print(s)
 ss = a - b
-print("Разность ")
-print(ss)
+print("Разность ", ss)
 sss = a * b
 print("Производное ")
 print(sss)
