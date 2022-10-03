@@ -6,7 +6,6 @@ print("Сумма ", s)
 ss = a - b
 print("Разность ", ss)
 sss = a * b
-print("Производное ", sss)
-ssss = a / b
-print("Частное ", ssss)
+print("Произведение ", sss)
+
 
