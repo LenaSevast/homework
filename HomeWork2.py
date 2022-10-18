@@ -29,13 +29,22 @@ for i in range(len(my_list)):
 
 print("Минимальное число ", min(lst))
 print("Максимальное число ", max(lst))
+mean = sum(lst) / len(lst)
+print("Среднее арифметическое ", mean)
+newlst = sorted(lst)
+print(newlst)
+
+#Дополнительно через функцию
 
 def mean(my_list):
+    my_list = input("Введите список чисел ").split()
+    lst = []
+    for i in range(len(my_list)):
+        lst.append(int(my_list[i]))
     mean_number = sum(lst) / len(lst)
     print("Среднее арифметическое ", mean_number)
     return mean_number
 
 mean(my_list)
 
-newlst = sorted(lst)
-print(newlst)
+
