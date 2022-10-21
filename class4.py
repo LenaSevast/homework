@@ -3,7 +3,7 @@ b = int(input())
 c = int(input())
 if a == b and b == c and a == c:
     print("равносторонний")
-if a != b != c:
+if a != b and a != c and b != c:
     print("разносторонний")
 if a == b and b != c:
     print("равнобедренный")
