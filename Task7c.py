@@ -6,8 +6,9 @@ for i in range(len(n)):
 print(lst)
 
 c = 0
+seen = []
 for i in lst:
-    a = lst.count(i)
-    if a == 1:
-        c +=1
+    if i not in seen:
+        c += 1
+        seen.append(i)
 print(c)
